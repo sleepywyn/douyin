@@ -61,7 +61,7 @@ def main(urls, num, grab, download, login, mstoken, headless, type, browser, pat
 
     edge = Browser(channel=browser, need_login=login, headless=headless)
 
-    for url in urls:
+    for url in urls:  # 在有url文件路径的情况下, 重新爬取里面的所有链接(更新) 这样会丢新的链接?
         if os.path.exists(url):  # 文件路径
             with open(url, 'r', encoding='utf-8') as f:
                 lines = f.readlines()

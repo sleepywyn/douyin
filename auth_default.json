@@ -1,0 +1,16 @@
+{
+  "cookies": [
+    {
+      "name": "toutiao_sso_user",
+      "value": "816f52253ab5a1dc1620bf8a92baaf4a",
+      "domain": ".douyin.com",
+      "path": "\/"
+    },
+    {
+      "name": "toutiao_sso_user_ss",
+      "value": "816f52253ab5a1dc1620bf8a92baaf4a",
+      "domain": ".douyin.com",
+      "path": "\/"
+    }
+  ]
+}
